@@ -140,6 +140,12 @@ html {
   font-weight: 500;
 }
 
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.16s, color 0.16s;
+}
+
 h1 {
   font-size: 2.4rem;
 }
@@ -183,6 +189,7 @@ img {
   height: 20px;
   position: relative;
   width: 40px;
+  cursor: pointer;
 }
 
 .toggle {
@@ -225,4 +232,9 @@ img {
 
 .coin__logo {
   width: 50px;
+}
+
+.dark-mode {
+  background-color: rgb(31, 31, 31);
+  color: white;
 }
